@@ -5,7 +5,7 @@ import {useThrottleFn} from "ahooks";
 import {SearchOutlined} from "@ant-design/icons";
 import {Flex} from "antd";
 import imgProduct from "../../asset/logo/img_default_product.png";
-import {dataTraiCay} from "./data";
+import {dataCafe, dataCheese, dataDaxay, dataSinhTo, dataTraiCay, dataTraSua} from "./data";
 
 const tabHeight = 42
 
@@ -90,11 +90,12 @@ const Chou = () => {
 
     const tabItems = [
         {key: '1', title: 'Trà trái cây', text: renderItem(dataTraiCay)},
-        {key: '2', title: 'Sinh tố', text: lorem.generateParagraphs(8)},
-        {key: '3', title: 'Trà sữa', text: lorem.generateParagraphs(8)},
-        {key: '4', title: 'Cheese', text: lorem.generateParagraphs(8)},
-        {key: '5', title: 'Đá xay', text: lorem.generateParagraphs(8)},
-        {key: '6', title: 'Cafe', text: lorem.generateParagraphs(8)},
+        {key: '2', title: 'Sinh tố', text: renderItem(dataSinhTo)},
+        {key: '3', title: 'Trà sữa', text: renderItem(dataTraSua)},
+        {key: '4', title: 'Cheese', text: renderItem(dataCheese)},
+        {key: '5', title: 'Đá xay', text: renderItem(dataDaxay)},
+        {key: '6', title: 'Cafe', text: renderItem(dataCafe)},
+        {key: '7', title: '', text: <div style={{height: 400}}/>},
     ]
 
     return <>
