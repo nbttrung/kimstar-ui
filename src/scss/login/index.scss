@@ -1,0 +1,246 @@
+.ant-typography {
+    font-family: var(--font-family-base, system-ui, -apple-system, blinkmacsystemfont, "Segoe UI", roboto, oxygen-sans, ubuntu, cantarell, "Helvetica Neue", arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol")
+}
+
+.dg_background_img {
+    background: url("../../asset/background/Section.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.login {
+    &-page {
+        //background-color: var(--primary-color-bg);
+        background-image: url("../../asset/background/login-background.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 100vh;
+        width: 100%;
+        overflow: auto;
+    }
+
+    &-header {
+        padding: 45px 60px;
+    }
+
+    &-content {
+        max-width: 1600px;
+        margin: auto;
+        overflow: auto;
+    }
+
+    &-logo {
+        width: 176px;
+        height: 65px;
+        object-fit: cover;
+    }
+
+    &-hero {
+        width: 570px;
+        height: 570px;
+    }
+
+    &-form {
+        width: 500px;
+
+        input:-webkit-autofill,
+        input:-webkit-autofill:hover,
+        input:-webkit-autofill:focus,
+        input:-webkit-autofill:active {
+            -webkit-box-shadow: 0 0 0 30px white inset !important;
+        }
+
+        /*.ant-checkbox-checked .ant-checkbox-inner {
+            background-color: var(--primary-color-bg);
+            border-color: var(--primary-color-bg);
+            outline: none;
+
+            &:hover {
+                border: none;
+                outline: none;
+            }
+
+            &:focus {
+                border: none;
+                outline: none;
+            }
+        }
+
+        .ant-checkbox-wrapper {
+            &:hover {
+                border: none;
+                outline: none;
+            }
+
+            &:focus {
+                border: none;
+                outline: none;
+            }
+        }*/
+
+        .ant-btn {
+            height: 55px;
+
+            &:hover {
+                color: white;
+                border-color: unset;
+                opacity: 0.9;
+            }
+
+            &:focus {
+                color: white;
+                border-color: unset;
+            }
+        }
+
+        .download {
+            color: #A1A1A1;
+
+            &-btn {
+                width: 160px;
+                border: 2px solid lightgray;
+                margin: 0 10px;
+            }
+
+            &-icon {
+                width: 25px;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            &-text-sm {
+                font-size: 8px;
+            }
+        }
+
+        .copyright {
+            color: #A1A1A1;
+
+            &-icon {
+                width: 15px;
+                height: 15px;
+                border: 1px solid lightgray;
+            }
+        }
+    }
+}
+
+@media (max-width: 1366px) {
+    .login {
+        &-content {
+            max-width: 1200px;
+        }
+
+        &-form {
+            width: 450px;
+        }
+
+        //&-logo {
+        //    width: 150px;
+        //}
+
+        &-hero {
+            width: 250px;
+            height: 250px;
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    &-hero {
+        display: none;
+    }
+}
+
+@media (max-height: 600px) and (max-width: 800px) {
+    .hide-on-md {
+        display: none;
+    }
+}
+
+@media (max-width: 736px) {
+    .login {
+        &-content {
+            justify-content: center;
+        }
+
+        &-form {
+            width: 450px;
+            padding: 0 20px;
+
+            h1 {
+                padding: 20px 0;
+            }
+        }
+    }
+}
+
+@media (max-width: 414px) {
+    .login-header {
+        padding: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .login {
+        &-content {
+            justify-content: center;
+        }
+
+        &-form {
+            width: 300px;
+            padding: 0 20px;
+
+            h1 {
+                padding: 20px 0;
+            }
+
+            .ant-btn {
+                height: 45px;
+            }
+
+            div {
+                font-size: 10px;
+            }
+
+            .download {
+                flex-direction: column;
+            }
+
+            .download-btn:first-child {
+                margin-bottom: 20px;
+            }
+
+            .login-form__inner {
+                .ant-input {
+                    padding: 5px 10px;
+                }
+
+                .ant-input-password {
+                    padding: 0 10px 0 0;
+                    overflow: hidden;
+                }
+            }
+
+            .actions-md {
+                .ant-checkbox-wrapper {
+                    font-size: 10px;
+                }
+
+                .forget-pass {
+                    font-size: 10px;
+                }
+            }
+        }
+
+        &-hero {
+            width: 350px;
+            height: 350px;
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    .hide-on-md {
+        display: none;
+    }
+}

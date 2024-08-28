@@ -1,0 +1,897 @@
+div#id-sidebar-profile ul.ant-pagination.ant-pagination-mini.ant-table-pagination {
+  position: fixed;
+  width: 300px;
+  bottom: 10px;
+  padding-right: 10px;
+}
+
+.anchor-hrm .ant-anchor-link {
+  height: 46px;
+}
+
+.item-right.tabs-btn {
+  border-radius: 4px;
+  background-color: #f5f6f8;
+}
+
+.benefits-label {
+  margin-top: 6px;
+}
+
+.inner-item {
+  margin-right: 12px;
+}
+
+.hrm-profile-view {
+  height: calc(100% - 64px);
+  width: 100%;
+  margin: auto;
+}
+
+.box-container {
+  height: calc(100vh - 150px);
+  overflow-x: auto;
+  overflow-y: auto;
+  margin: 0 24px 16px;
+  padding: 0 10px;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.hrm-profile-view .box-container {
+  height: 100% !important;
+}
+
+.hrm_details {
+  background-color: #fff !important;
+  margin-right: 0;
+}
+
+.hrm-profile-view-container .box-container {
+  z-index: 10;
+  position: relative;
+  overflow-x: auto;
+  margin-left: 0;
+  border-radius: 4px;
+  height: 100%;
+  padding-left: 10px;
+  //background-color: #f5f5f5!important;
+  //width: calc(100% - 240px);
+}
+
+.dis-flex {
+  display: flex;
+}
+
+.header-master-view-profile.dis-flex {
+  padding: 12px 16px;
+  border-bottom: 1px solid #e0e1e4;
+  background: #fff
+}
+
+.sidebar-profile-header {
+  width: 285px;
+  display: flex;
+}
+
+div#profile-info-detail {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: calc(100% - 61px);
+  overflow: hidden;
+  background-color: #eeeff1;
+}
+
+
+div#id-sidebar-profile {
+  width: 300px;
+  height: 100%;
+  padding: 18px 8px 0;
+  border-radius: 0 0 4px 4px;
+  background: #fff;
+}
+
+.slidebar-profile-footer {
+  margin-left: -8px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  padding: 16px;
+  width: 100%;
+  border-top: 1px solid #e0e1e4;
+}
+
+
+.hrm-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 300px;
+  right: -2px;
+  bottom: 0;
+  top: 0;
+}
+
+//css info
+
+.profile-info-header {
+  height: 128px;
+  background-size: cover !important;
+  width: calc(100% - 2px);
+  background: url(https://amisplatform.misacdn.net/images/imagesapps/employees-information/profile.jpg);
+}
+
+.mark-back-ground.w-100.h-100 {
+  background: linear-gradient(rgba(0, 1, 1, .7), rgba(3, 12, 30, 0));
+  color: #fff;
+  padding: 16px;
+  display: flex;
+}
+
+.header-user {
+  display: flex;
+  height: 38px;
+  width: calc(100% - 130px);
+}
+
+.headerUserAvatar {
+  min-width: 24px;
+  min-height: 24px;
+  margin-right: 8px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.avatar-56.text-overflow.cursor {
+  width: 56px;
+  text-align: center;
+  line-height: 32px;
+  border-radius: 50%;
+  margin: 0;
+  padding: 0;
+  font-size: 11px;
+  color: #fff;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.header-user-name {
+  width: calc(100% - 72px);
+}
+
+.user-full-name.title.text-overflow {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+span.ml-2.user-code {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.user-organization-name.text-overflow {
+  width: auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  user-select: text;
+}
+
+button.btn-edit-text:hover {
+  //color: #344054 !important;
+  border-color: #12A54A !important;
+}
+
+.view-edit-text:hover {
+  color: #12A54A;
+
+}
+
+label.ant-segmented-item.ant-segmented-item-selected {
+  color: #12A54A;
+}
+
+.profile-info-content {
+  width: calc(100% - 2px);
+  background: #fff;
+  border-radius: 0 0 8px 8px;
+  height: calc(100% - 132px) !important;
+  padding-top: 0px;
+}
+
+.custom-tab-profile {
+  margin: 0px 24px;
+  position: absolute;
+  background-color: #fff;
+  padding-bottom: 8px;
+  border-radius: 8px;
+  width: calc(100% - 48px);
+  padding-left: 8px;
+  top: 90px !important;
+  height: calc(100% - 128px);
+  overflow-y: scroll;
+}
+
+
+//css view -detail
+
+
+.view-header.pos-relative {
+  //position: absolute;
+  left: 280px;
+  background-size: cover !important;
+  background: url(https://amisplatform.misacdn.net/images/imagesapps/employees-information/profile.jpg);
+  right: 0;
+  display: flex;
+  padding: 24px 24px 0;
+}
+
+
+.wrap-content-header.w-100.dis-align-items-center.big-sidebar {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 4px 4px 0;
+  padding: 0 16px;
+  background: hsla(0, 0%, 100%, .88);
+  backdrop-filter: blur(2px);
+  --webkit-backdrop-filter: blur(2px);
+  z-index: 11;
+  width: 100% !important;
+}
+
+.dis-flex.view-header-content.dis-align-items-center {
+  width: calc(100% - 150px);
+  transition: all .35s;
+}
+
+.ic-back {
+  border-radius: 50%;
+  position: absolute;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+
+.hrm-profile-info {
+  margin: 16px 0;
+  height: 128px;
+  display: flex;
+  width: 100%;
+}
+
+.header-user {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.header-user.detail {
+  width: 240px !important;
+
+}
+
+.view-header .header-user-name {
+  color: #1f1f20;
+  align-items: center;
+  width: auto;
+}
+
+.user-full-name.text-overflow.title {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.user-full-name.text-overflow.title.center {
+  text-align: center;
+}
+
+.text-overflow-ellipsis {
+  width: auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
+
+.user-code {
+  vertical-align: middle;
+  text-align: center;
+  font-size: 14px;
+  opacity: .7;
+}
+
+.view-header .profile-info-content {
+  display: flex;
+  color: #1f1f20;
+  padding-left: 30px;
+  flex-wrap: wrap;
+  width: calc(100% - 240px);
+  align-items: center;
+  height: 128px;
+}
+
+.column-info {
+  width: 31%;
+  margin-right: 0.5rem !important;
+  box-sizing: border-box;
+  color: #65696e;
+}
+
+.icon-arrow-left.inner-icon {
+  width: 24px;
+  height: 24px;
+  -webkit-mask-image: url(https://amisplatform.misacdn.net/apps/employees-information/assets/images/Icon.svg);
+  -moz-mask-image: url(https://amisplatform.misacdn.net/apps/employees-information/assets/images/Icon.svg);
+  -ms-mask-image: url(https://amisplatform.misacdn.net/apps/employees-information/assets/images/Icon.svg);
+  -o-mask-image: url(https://amisplatform.misacdn.net/apps/employees-information/assets/images/Icon.svg);
+  mask-image: url(https://amisplatform.misacdn.net/apps/employees-information/assets/images/Icon.svg);
+  -webkit-mask-position: -168px -48px;
+  -moz-mask-position: -168px -48px;
+  -ms-mask-position: -168px -48px;
+  -o-mask-position: -168px -48px;
+  mask-position: -168px -48px;
+  -webkit-mask-repeat: no-repeat;
+  -moz-mask-repeat: no-repeat;
+  -ms-mask-repeat: no-repeat;
+  -o-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  background-color: #686C7B;
+}
+
+.hover-icon:hover {
+  background-color: #12A54A;
+}
+
+.flex-c-m.cursor-pointer.hover-icon {
+  border-radius: 50%;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column-info .caption-content {
+  font-weight: bold;
+}
+
+button.ant-btn.ant-btn-text.btn-edit-text {
+  padding: 0 16px 0 8px;
+  border-radius: 4px;
+  height: 32px;
+}
+
+.header-custom-button.dis-flex.dis-align-items-center {
+  padding-top: 6px;
+}
+
+button.ant-btn.ant-btn-text.btn-edit-text.detail {
+  color: #1F1F02 !important;
+}
+
+.profile-info-content.not-color {
+  background: no-repeat;
+  height: 128px !important;
+}
+
+.hrm-view-detail {
+  height: 100%;
+}
+
+.hrm-profile-view-container.big-header {
+  display: flex;
+  position: absolute;
+  top: 260px;
+  height: calc(100% - 260px);
+  background: #fff;
+  padding: 16px 24px 0;
+}
+
+
+//css chart view hrm
+
+.d-flex {
+  display: flex !important;
+}
+
+.d-flex.quick-view-chart-contract {
+  //height: 200px;
+  margin-bottom: 10px;
+  //padding-top: 16px;
+}
+
+.chart-contract-valid {
+  background-color: #fff;
+  border-radius: 8px;
+  width: 50%;
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+}
+
+.total-contract-valid.position-relative {
+  width: 33.33%;
+  position: relative;
+  border-right: 1px solid rgba(0, 0, 0, .14);
+}
+
+.icon-ring-one {
+  position: absolute;
+  bottom: 0;
+  width: 91px;
+  height: 181px;
+  background: url(https://amisplatform.misacdn.net/apps/employees-information/assets/images/ring1.svg) 0px 0px no-repeat;
+}
+
+.title-chart-contract-valid {
+  font-weight: 700;
+  color: #1f1f20;
+  position: absolute;
+  left: 12px;
+  top: 15px;
+}
+
+.box-total {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+span.total.cursor {
+  font-size: 36px;
+  font-weight: 700;
+  color: #2566e9;
+}
+
+.icon-ring-two {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 51px;
+  height: 200px;
+  background: url(https://amisplatform.misacdn.net/apps/employees-information/assets/images/ring2.svg) 0px 0px no-repeat;
+}
+
+.type-contract-valid {
+  width: 66.67%;
+  padding: 12px;
+  line-height: 36px;
+}
+
+.type-employee.dis-flex.dis-align-items-center {
+  position: relative;
+  bottom: 4px;
+}
+
+.type-employee .des-select-type {
+  height: 22px;
+  font-weight: 700;
+  padding-right: 4px;
+}
+
+.employee-statistic-panel {
+  height: 130px;
+  position: relative;
+}
+
+.chart-other-contract {
+  width: 50%;
+  display: flex;
+}
+
+.group-column {
+  width: 100%;
+  display: flex;
+}
+
+span.total.cursor:hover {
+  text-decoration: underline;
+}
+
+.chart-hrm canvas {
+  margin-left: -50px;
+}
+
+.item-chart.no-contract-yet.p-relative {
+  background-image: linear-gradient(90deg, #00a780, #04de82);
+  border-radius: 8px;
+  width: 50%;
+  height: 200px;
+  overflow: hidden;
+  margin-left: 16px;
+}
+
+.title-chart-other-contract {
+  font-weight: 700;
+  color: #fff;
+  position: absolute;
+  left: 16px;
+  top: 16px;
+}
+
+.title-chart-other-contract-employee {
+  font-weight: 700;
+  color: #fff;
+  position: absolute;
+  left: 110px;
+  top: 11px;
+  z-index: 15;
+}
+
+span.total.white.cursor {
+  color: #fff !important;
+  font-size: 36px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.item-chart.expiration-soon.p-relative {
+  border-radius: 8px;
+  width: 50%;
+  height: 200px;
+  overflow: hidden;
+  margin-left: 16px;
+  background-image: linear-gradient(90deg, #e18700, #e8df31);
+}
+
+.p-relative {
+  position: relative;
+}
+
+.icon-eye-blue {
+  width: 24px;
+  height: 24px;
+  -webkit-mask-image: url(https://amisplatform.misacdn.net/apps/employees-information/assets/images/Icon.svg);
+  -moz-mask-image: url(https://amisplatform.misacdn.net/apps/employees-information/assets/images/Icon.svg);
+  -ms-mask-image: url(https://amisplatform.misacdn.net/apps/employees-information/assets/images/Icon.svg);
+  -o-mask-image: url(https://amisplatform.misacdn.net/apps/employees-information/assets/images/Icon.svg);
+  mask-image: url(https://amisplatform.misacdn.net/apps/employees-information/assets/images/Icon.svg);
+  -webkit-mask-position: -216px -96px;
+  -moz-mask-position: -216px -96px;
+  -ms-mask-position: -216px -96px;
+  -o-mask-position: -216px -96px;
+  mask-position: -216px -96px;
+  -webkit-mask-repeat: no-repeat;
+  -moz-mask-repeat: no-repeat;
+  -ms-mask-repeat: no-repeat;
+  -o-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  background-color: #12A54A;
+  margin-right: 10px;
+}
+
+.btn-view-chart-contract.inner-item.dis-flex:hover {
+  cursor: pointer;
+}
+
+.icon-eyes-hidden-blue {
+  width: 24px;
+  height: 24px;
+  -webkit-mask-image: url(https://amisplatform.misacdn.net/apps/employees-information/assets/images/Icon.svg);
+  -moz-mask-image: url(https://amisplatform.misacdn.net/apps/employees-information/assets/images/Icon.svg);
+  -ms-mask-image: url(https://amisplatform.misacdn.net/apps/employees-information/assets/images/Icon.svg);
+  -o-mask-image: url(https://amisplatform.misacdn.net/apps/employees-information/assets/images/Icon.svg);
+  mask-image: url(https://amisplatform.misacdn.net/apps/employees-information/assets/images/Icon.svg);
+  -webkit-mask-position: -48px -192px;
+  -moz-mask-position: -48px -192px;
+  -ms-mask-position: -48px -192px;
+  -o-mask-position: -48px -192px;
+  mask-position: -48px -192px;
+  -webkit-mask-repeat: no-repeat;
+  -moz-mask-repeat: no-repeat;
+  -ms-mask-repeat: no-repeat;
+  -o-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  background-color: #12A54A;
+  margin-right: 10px;
+}
+
+.box-sidebar .ant-anchor-link {
+  padding: 10px 10px;
+}
+
+.box-sidebar {
+  border-radius: 4px;
+  border-right: 2px solid #80808054;
+  padding-top: 10px;
+}
+
+div#idCard .ant-card-head {
+  padding-left: 0px;
+}
+
+.header-user .avatar-tooltip {
+  //padding-left: 30px;
+}
+
+//css header add employee
+
+.profile-edit.position-absolute {
+  top: 15px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  background-color: #fff;
+  position: absolute;
+  height: calc(100% - 35px);
+}
+
+.hrm-profile-edit {
+  width: 100%;
+  height: 100%;
+  //padding: 16px 24px;
+}
+
+.hrm-form-components-header.d-flex {
+  justify-content: space-between;
+}
+
+.header-title-big.flex-1 {
+  font-size: 24px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.title-form {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.h-100 {
+  height: 100% !important;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.hrm-form-components {
+  width: 100%;
+  height: 100%;
+}
+
+.hrm-profile-view-container {
+  height: 100%;
+  border-radius: 4px;
+  display: flex;
+}
+
+.box-sidebar.box-form {
+  width: 240px;
+  /* height: 100%; */
+  background: #fff;
+  border-radius: 4px;
+
+  border-right: none;
+}
+
+.hrm-form-components-content.mt-3 {
+  height: calc(100% - 70px);
+}
+.hrm-view-detial-sidebar-content .ant-anchor.ant-anchor-fixed:before {
+  border-inline-start: none;
+}
+
+div#basicInfo, div#contactInformation,
+div#familyInformation,
+div#professionalInformation,
+div#communistInformation,
+div#experienceInformation {
+  background: #fff;
+  margin-bottom: 12px;
+}
+
+.hrm_basic_info_container {
+  padding: 20px;
+}
+
+.box-container span.ant-collapse-header-text {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.box-container .ant-col.ant-col-6.ant-form-item-label.ant-form-item-label-left {
+  overflow: visible;
+}
+
+div#contentEmployee {
+  width: calc(100% - 240px);
+}
+
+.profile-info-header .ant-dropdown-trigger.dis-flex-content-center.h-100.btn-main-content.btn-icon-left {
+  height: 50px !important;
+}
+
+.hrm-profile-info-avatar {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  height: 130px;
+  padding-left: 24px;
+  background-color: #fff;
+  width: 100%;
+  margin-bottom: 12px;
+  padding-top: 10px
+}
+
+.header-user-avatar .ant-upload.ant-upload-select.ant-upload-select-picture-card {
+  width: 90px;
+  height: 75px;
+}
+
+.person-table td.ant-table-cell {
+  color: #475467;
+
+}
+
+.person-table .ant-table-body td.ant-table-cell {
+  height: 64px!important;
+  //box-sizing: border-box !important;
+  padding-top: 0!important;
+  padding-bottom: 0!important;
+
+}
+
+.person-table .ant-table-thead th.ant-table-cell {
+  color: #475467;
+}
+
+//------ config hrm -------
+
+.setting-hrmConfig .ant-collapse-header {
+  height: 60px;
+  align-items: center !important;
+  padding: 16px 24px !important;
+  background: #FFFFFF;
+  border-top-left-radius: 8px !important;
+  border-top-right-radius: 8px !important;
+  color: #344054 !important;
+}
+
+
+.btn {
+  &__group {
+    &-container {
+
+      row-gap: 0;
+      background: var(--primary-color-menu);
+      bottom: 0;
+      position: fixed;
+      width: 100%;
+      height: 48px;
+      align-items: center;
+      z-index: 100;
+      padding: 0 16px 24px;
+    }
+  }
+}
+// css personnel detail
+
+.avatar-info-basic.pl-6.pt-4.h-40 {
+  width: 184px;
+  position: relative;
+}
+
+svg.icon-status {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+svg.icon-status.working-icon {
+  right: 8px;
+  bottom: 8px;
+}
+
+.avatar-info-basic .avatar-tooltip {
+  border-radius: 50%;
+  //box-shadow: 0 0 0 10px #f2f2f3;
+}
+
+.text-personnel{
+  font-size: 30px;
+  font-weight: 600;
+  color: #101828;
+  line-height: 38px;
+}
+
+.text-info {
+  color: #475467;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.name-personnel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+// css anchor detail personnel
+
+.ant-anchor-wrapper-horizontal::before {
+  border: unset;
+}
+
+.anchor-personnel-detail span.ant-anchor-ink.ant-anchor-ink-visible {
+  display: none;
+}
+
+.setting-hrmConfig .ant-collapse-content.ant-collapse-content {
+  background-color: #fff;
+}
+
+.setting-hrmConfig .ant-col.ant-col-24.css-dev-only-do-not-override-179h8uk {
+  color: #475467;
+  font-weight: 400;
+}
+
+.anchor-personnel-detail a.ant-anchor-link-title {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.anchor-personnel-detail a.ant-anchor-link-title.ant-anchor-link-title-active {
+  font-weight: 600;
+}
+
+.anchor-personnel-detail .ant-anchor-link.ant-anchor-link-active {
+  background: #D1E6D5;
+  border-radius: 8px;
+}
+
+.anchor-personnel-detail .ant-anchor-link {padding-inline: 0 0 !important;}
+
+.anchor-personnel-detail a.ant-anchor-link-title {
+  padding: 7px 12px;
+}
+
+.basic-content-information th.ant-descriptions-item {
+  padding-bottom: 8px;
+}
+
+#contentPersonnel thead.ant-table-thead .ant-table-cell, #contentPersonnelOther thead.ant-table-thead .ant-table-cell {
+  font-size: 16px;
+  font-weight: 400;
+  color: #101828;
+}
+
+#contentPersonnel .ant-table-content {
+  padding-left: 24px;
+  padding-right: 10px;
+}
+
+.detail-personnel .ant-table-title{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#contentPersonnelOther .DGDocument table {
+  padding-left: 25px;
+  padding-right: 10px;
+}
+
+#contentPersonnel label {
+  color: #667085;
+  font-weight : 400;
+  font-size: 15px;
+}
